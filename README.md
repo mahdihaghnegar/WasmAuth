@@ -64,5 +64,5 @@ namespace WASM.Client
             return user;
         }
     }
-}
+
 
