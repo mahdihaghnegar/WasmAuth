@@ -6,7 +6,7 @@ Add Blazor wasm Authentication and Authorization
 4-in client 
 4-1 add CustomUserFactory.cs class
 
-//namespace ToRoKhodaWASM.Client
+
 
 
 using System.Linq;
@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication.Internal;
 
-namespace ToRoKhodaWASM.Client
+namespace WASM.Client
 {
     public class CustomUserFactory : AccountClaimsPrincipalFactory<RemoteUserAccount>
     {
